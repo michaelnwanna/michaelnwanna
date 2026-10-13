@@ -2,8 +2,8 @@
 
 **Low-level C++ engineer** working where performance, determinism, and hardware
 meet. I build things from the silicon up: bare-metal microcontroller firmware,
-edge-AI inference kernels, and real-time game systems — all in modern,
-allocation-aware C++.
+edge-AI inference kernels, circuit simulation, and real-time game systems — all
+in modern, allocation-aware C++.
 
 ---
 
@@ -14,10 +14,11 @@ allocation-aware C++.
 | 🛠️ **Bare-metal MCU** | [**mcu-baremetal**](https://github.com/michaelnwanna/mcu-baremetal) | True bare-metal AVR firmware — no Arduino, no RTOS, **no vendor libraries**. Datasheet-level register I/O, raw interrupt vectors, ~1.8 KB flash. |
 | 💡 **MCU fundamentals** | [**mcu-blink**](https://github.com/michaelnwanna/mcu-blink) | A minimal, heavily documented bare-metal AVR LED example built directly from registers and the GNU toolchain. |
 | 🧠 **Edge AI** | [**microtensor**](https://github.com/michaelnwanna/microtensor) | A tiny, heap-free C++ tensor + **int8 quantized inference** core designed to run on constrained devices. |
+| ⚡ **Circuit simulation** | [**microspice**](https://github.com/michaelnwanna/microspice) | An educational SPICE-inspired simulator with nodal analysis, transparent matrix stamping, and a phased path to nonlinear transient simulation and a Qt GUI. |
 | 🎮 **Real-time gaming** | [**game-engine-core**](https://github.com/michaelnwanna/game-engine-core) | A **deterministic** fixed-timestep simulation loop and fixed-point math core — the backbone of reproducible real-time engines. |
 
-The thread connecting all three: **performance-critical, deterministic C++ with
-no hidden costs.**
+The thread connecting these projects: **performance-critical, deterministic C++
+with no hidden costs.**
 
 ---
 
@@ -42,8 +43,8 @@ no hidden costs.**
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
 **Focus areas:** embedded firmware · device drivers · interrupts & timers ·
-real-time systems · quantization & inference · deterministic simulation ·
-build systems & toolchains.
+real-time systems · quantization & inference · numerical methods · circuit
+simulation · deterministic simulation · build systems & toolchains.
 
 ---
 
