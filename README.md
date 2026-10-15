@@ -16,6 +16,8 @@ in modern, allocation-aware programming languages.
 | 🧠 **Edge AI** | [**microtensor**](https://github.com/michaelnwanna/microtensor) | A tiny, heap-free C++ tensor + **int8 quantized inference** core designed to run on constrained devices. |
 | ⚡ **Circuit simulation** | [**microspice**](https://github.com/michaelnwanna/microspice) | An educational SPICE-inspired simulator with nodal analysis, transparent matrix stamping, and a phased path to nonlinear transient simulation and a Qt GUI. |
 | 🎮 **Real-time gaming** | [**game-engine-core**](https://github.com/michaelnwanna/game-engine-core) | A **deterministic** fixed-timestep simulation loop and fixed-point math core — the backbone of reproducible real-time engines. |
+| **Failure intelligence** | [**os-inteligence-lab**](https://github.com/michaelnwanna/os-inteligence-lab) | A Python and C#/.NET platform for regression detection, affected-cohort discovery, change correlation, and evidence-grounded AI investigation, with reproducible synthetic fleet scenarios and incident replay. |
+| **Payment protocols** | [**Iso8583lib**](https://github.com/michaelnwanna/Iso8583lib) | A dependency-free **ISO 8583 codec** in Go, C#, and C++17, with strict JSON host profiles, packed BCD, incremental transport framing, and shared cross-language conformance vectors. |
 
 The thread connecting these projects: **performance-critical, deterministic C++
 with no hidden costs.**
