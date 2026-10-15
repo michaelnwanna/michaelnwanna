@@ -1,9 +1,9 @@
 # Hi, I'm Michael Nwanna 👋
 
-**Principal software engineer** working where performance, determinism, and hardware
+**Principal software engineer** working where data, performance, determinism, and hardware
 meet. I build things from the silicon up: bare-metal microcontroller firmware,
 edge-AI inference kernels, circuit simulation, and real-time game systems — all
-in modern, allocation-aware C++.
+in modern, allocation-aware programming languages.
 
 ---
 
