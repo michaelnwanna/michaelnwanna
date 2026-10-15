@@ -17,6 +17,7 @@ in modern, allocation-aware programming languages.
 | ⚡ **Circuit simulation** | [**microspice**](https://github.com/michaelnwanna/microspice) | An educational SPICE-inspired simulator with nodal analysis, transparent matrix stamping, and a phased path to nonlinear transient simulation and a Qt GUI. |
 | 🎮 **Real-time gaming** | [**game-engine-core**](https://github.com/michaelnwanna/game-engine-core) | A **deterministic** fixed-timestep simulation loop and fixed-point math core — the backbone of reproducible real-time engines. |
 | **Failure intelligence** | [**os-inteligence-lab**](https://github.com/michaelnwanna/os-inteligence-lab) | A Python and C#/.NET platform for regression detection, affected-cohort discovery, change correlation, and evidence-grounded AI investigation, with reproducible synthetic fleet scenarios and incident replay. |
+| 📡 **Offline edge AI** | [**ai-hotspot**](https://github.com/michaelnwanna/ai-hotspot) | An offline AI gateway: a Wi-Fi hotspot that lets any phone browser chat with a local Ollama model, no SIM or Internet needed. Runs on Raspberry Pi, Linux, Windows, macOS and Android (Termux), with a dependency-free cross-platform launcher and FAQ-grounded answers. |
 | **Payment protocols** | [**Iso8583lib**](https://github.com/michaelnwanna/Iso8583lib) | A dependency-free **ISO 8583 codec** in Go, C#, and C++17, with strict JSON host profiles, packed BCD, incremental transport framing, and shared cross-language conformance vectors. |
 
 The thread connecting these projects: **performance-critical, deterministic C++
@@ -44,7 +45,7 @@ with no hidden costs.**
 ![Assembly](https://img.shields.io/badge/Assembly-inline-525252)
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
-**Focus areas:** AI, embedded firmware · device drivers · interrupts & timers ·
+**Focus areas:** AI, offline edge-AI gateways, embedded firmware · device drivers · interrupts & timers ·
 real-time systems · quantization & inference · numerical methods · circuit
 simulation · deterministic simulation · build systems & toolchains.
 
