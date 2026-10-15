@@ -42,7 +42,7 @@ with no hidden costs.**
 ![Assembly](https://img.shields.io/badge/Assembly-inline-525252)
 ![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
-**Focus areas:** embedded firmware · device drivers · interrupts & timers ·
+**Focus areas:** AI, embedded firmware · device drivers · interrupts & timers ·
 real-time systems · quantization & inference · numerical methods · circuit
 simulation · deterministic simulation · build systems & toolchains.
 
