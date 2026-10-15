@@ -1,6 +1,6 @@
 # Hi, I'm Michael Nwanna 👋
 
-**Low-level C++ engineer** working where performance, determinism, and hardware
+**Principal software engineer** working where performance, determinism, and hardware
 meet. I build things from the silicon up: bare-metal microcontroller firmware,
 edge-AI inference kernels, circuit simulation, and real-time game systems — all
 in modern, allocation-aware C++.
