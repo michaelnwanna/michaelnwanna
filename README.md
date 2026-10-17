@@ -32,7 +32,7 @@ with no hidden costs.**
 - **Zero-overhead abstractions** — abstractions manage complexity, never add runtime cost.
 - **No heap, no exceptions, no RTTI** on hot/embedded paths; bounded compile-time state.
 - **Inject hardware at the boundary** so logic stays portable and unit-testable on a host.
-- **Tests + CI are non-negotiable** — every repo builds, tests, and format-checks on every push.
+- **Tests + CI, Architecture Diagrams and Documentation are non-negotiable** — every repo builds, tests, and format-checks on every push.
 - **Program to the datasheet** — I'd rather understand the silicon than hide behind a vendor HAL.
 
 ---
