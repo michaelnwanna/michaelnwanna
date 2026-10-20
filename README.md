@@ -21,6 +21,7 @@ in modern, allocation-aware programming languages.
 | **Payment protocols** | [**Iso8583lib**](https://github.com/michaelnwanna/Iso8583lib) | A dependency-free **ISO 8583 codec** in Go, C#, and C++, with strict JSON host profiles, packed BCD, incremental transport framing, and shared cross-language conformance vectors. |
 | **Android fleet management** | [**custom-android-mdm-agent**](https://github.com/michaelnwanna/custom-android-mdm-agent) | An Android Device Owner feasibility lab with genuine kiosk mode, silent sample-app updates, APK rejection checks, and persisted cold-boot recovery, verified on an API 34 emulator with replayable evidence. An offline-first ASP.NET Core control plane and React console are planned. |
 | **Offline synchronization** | [**offline-sync-engine**](https://github.com/michaelnwanna/offline-sync-engine) | A Kotlin/Android and .NET synchronization SDK in development: field-level CRDT merges, encrypted Room/SQLCipher storage, a durable leased outbox, and transactional acknowledgment/pull processing. Eighteen Android 34 instrumentation tests passed locally; HTTP transport, WorkManager, the sample app, and real PostgreSQL validation remain outstanding. |
+| **Local-first network inspection** | [**Traceglass**](https://github.com/michaelnwanna/network-anomaly-packet-inspection) | A Go HTTP/HTTPS proxy with **opt-in, per-domain TLS inspection**, encrypted CONNECT passthrough, tracker/size/port signals, a local dashboard, and bounded SQLite/WAL metadata storage. Race-tested with **81.2% statement coverage** and a **1,000,000-retained-record** scale test; no persisted payloads or automatic certificate trust installation. |
 
 The thread connecting these projects: **performance-critical, deterministic C++
 with no hidden costs.**
@@ -41,6 +42,7 @@ with no hidden costs.**
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17%2F20-00599C?logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-freestanding-A8B9CC?logo=c&logoColor=black)
+![Go](https://img.shields.io/badge/Go-1.24%2B-00ADD8?logo=go&logoColor=white)
 ![AVR](https://img.shields.io/badge/AVR-avr--gcc-orange)
 ![ARM](https://img.shields.io/badge/ARM-Cortex--M-0091BD?logo=arm&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white)
@@ -49,7 +51,7 @@ with no hidden costs.**
 
 **Focus areas:** AI, offline edge-AI gateways, embedded firmware · device drivers · interrupts & timers ·
 real-time systems · quantization & inference · numerical methods · circuit
-simulation · deterministic simulation · build systems & toolchains.
+simulation · deterministic simulation · local-first network inspection · build systems & toolchains.
 
 ---
 
