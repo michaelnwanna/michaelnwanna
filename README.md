@@ -38,6 +38,16 @@ with no hidden costs.**
 
 ---
 
+## Technical leadership
+
+My approach: **set clear technical direction, make trade-offs explicit, and make reliable delivery repeatable.**
+
+- **Architecture with intent** — connect design decisions to real constraints: latency, memory, reliability, security, and maintainability.
+- **Lead through engineering standards** — favor small, reviewable changes, reproducible tests, and CI-backed evidence over assumptions.
+- **Build shared understanding** — explain the reasoning, document the boundaries, and make complex systems easier for others to extend.
+
+---
+
 ## 🧰 Tech
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17%2F20-00599C?logo=cplusplus&logoColor=white)
